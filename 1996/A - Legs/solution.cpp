@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int T;    cin >> T;    for(int t=0;t<T;t++)    {        int num;        cin >> num;        if(num%4==0)        {            cout << num/4 << endl;        }        else        {            int ab = num /4;            int cd = (num - (ab*4))/2;            int final = ab+cd;            cout << final << endl;        }    }}
