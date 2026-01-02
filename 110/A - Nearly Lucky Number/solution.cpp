@@ -1,0 +1,1 @@
+using namespace std;#include <bits/stdc++.h> int main(){    long long num;    cin >> num;    int counta=0;    while(num>0)    {        int n = num%10;        if(n==4 || n==7)        {            counta++;        }        num = num/10;    }    if(counta==4 || counta ==7)    {        cout << "YES" << endl;    }    else    {        cout << "NO" << endl;    }}
