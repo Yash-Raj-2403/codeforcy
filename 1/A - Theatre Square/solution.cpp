@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main(){    long double a, b, c;    cin >> a >> b >> c;    long long tot = (long long)(ceil(a / c) * ceil(b / c));    cout << tot << endl;}
