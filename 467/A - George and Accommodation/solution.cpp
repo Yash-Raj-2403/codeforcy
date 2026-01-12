@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int t;    cin >> t;     int counta =0;    for(int T=0;T<t;T++)    {        int a,b;        cin >> a >> b;        if(b-a >=2)        {            counta++;        }    }    cout << counta << endl;}
