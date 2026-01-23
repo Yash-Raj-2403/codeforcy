@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int a,b,c;    cin >> a >> b >>c;    int mina = min({a,b,c});    int maxa = max({a,b,c});    int mid = a+b+c-mina-maxa;    int fin = abs(a-mid) + abs(b-mid) + abs(c-mid);    cout << fin << endl;}
