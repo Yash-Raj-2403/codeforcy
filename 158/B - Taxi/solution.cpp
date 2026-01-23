@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {    int n, x, c[5] = {};    cin >> n;     while (n--) {        cin >> x;        c[x]++;    }     int ans = c[4];    ans += c[3] + (c[2] + 1) / 2;     int rem = c[1] - c[3] - max(0, (c[2] % 2) * 2);    if (rem > 0) ans += (rem + 3) / 4;     cout << ans;}
