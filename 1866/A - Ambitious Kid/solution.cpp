@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int n;    cin >> n;    int mina =INT_MAX;    for(int i=0;i<n;i++)    {        int x;        cin >> x;        mina = min(mina , abs(x));    }    cout << mina << endl;}
