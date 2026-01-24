@@ -1,1 +1,1 @@
-#include<bits/stdc++.h>using namespace std; int main(){    string s,st;    cin >> s >> st;    for(int i=0;i<s.length();i++)    {        if(s[i]!=st[i])        {            cout << '1';        }        else        {            cout << '0';        }    }}
+#include<bits/stdc++.h>using namespace std; int main(){    string s,su;    cin >> s >> su;    for(int i=0;i<s.size();i++)    {        if(s[i]==su[i])        {            cout << "0";        }        else        {            cout << "1";        }    }}
