@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){ int erf,b; cin >>  erf >> b; int c = erf*b; vector<char> a(c);  bool found = false; for(int i=0;i<c;i++) {     cin >> a[i];     if(a[i]=='C' || a[i] == 'M' || a[i]=='Y')     {         found = true;         break;     } } if(found) {     cout << "#Color" << endl; } else {     cout << "#Black&White"<< endl; }}
