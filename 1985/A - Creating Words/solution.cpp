@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int t;    cin >> t;    while(t--)    {        string s,su;        cin >> s >> su;        char two = s[0];        char one = su[0];        cout << one << s[1] << s[2] << " ";        cout << two << su[1] << su[2] << endl;    }}
