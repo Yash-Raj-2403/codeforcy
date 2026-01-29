@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    string s , su;    cin >> s >> su;    for(int i=0;i<s.size();i++)    {        s[i] = tolower(s[i]);        su[i] = tolower(su[i]);    }    if(s > su)    {        cout << 1 << endl;    }    else if(s < su)    {        cout << -1 << endl;    }    else    {        cout << 0 << endl;    }}
