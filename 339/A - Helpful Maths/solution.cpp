@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main() {   string s;   cin >> s;   int n = s.size();   sort(s.begin(),s.end());   for(int i=0;i<n;i++)   {       if(isalnum(s[i]) && i<n-1)       {           cout << s[i] << "+";       }       else if(i==n-1)       {           cout << s[i];       }   }}
