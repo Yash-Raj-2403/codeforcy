@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int t;    cin >> t;    while(t--)    {        long long n;        cin >> n;        long long rem = n%15;        long long re=n/15;        long long c = re *3;        for(long long i=0;i<=rem;i++)        {            if(i%3 == i%5)            {                c++;            }        }        cout << c << endl;    }}
