@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int t;    cin >> t;    while(t--)    {        int a,b,c;        cin >> a >> b >> c;        if(a%2==0)        {            int d = (a/2)*c;            cout << min(b*a,d) << endl;        }        else        {            int e = (a/2)*c;            cout << min(b*a,e+b) << endl;        }    }}
