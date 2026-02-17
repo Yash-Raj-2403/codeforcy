@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int t;    cin >> t;    while(t--)    {        int n;        cin >> n;        string s;        cin >> s;        set<char> su(begin(s),end(s));        int m = su.size();        int fin = n-m;        cout << m*2 + fin << endl;    }}
