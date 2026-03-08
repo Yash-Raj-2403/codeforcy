@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    int a,b,c,d;    cin >> a >> b >> c >> d;    int e = a/b;    int o1 = a*c;    int o2 = ((a+b-1)/b)*d;    int o3 = (e*d)+(a%b)*c;    cout << min({o1,o2,o3}) << endl;}
