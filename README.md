@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 2 | 1 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 
 ---
 
@@ -21,6 +21,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/Yash-Raj-2403/codeforcy/blob/HEAD/2290/A%20-%20Three%20Piles/solution.cpp) |
+| 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/Yash-Raj-2403/codeforcy/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
 
 ---
 
